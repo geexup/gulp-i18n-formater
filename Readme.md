@@ -9,7 +9,7 @@ npm install gulp-i18n-formater --save-dev
 ```
 var i18nFormater = require('gulp-i18n-formater');
 
-gulp.task('format-i18n', () => {
+gulp.task('format-i18n', function() {
     gulp.src('./Locals.json')
         .pipe(i18nFormater(['ru_RU', 'en_US']))
         .pipe(gulp.dest('./i18n/'));
