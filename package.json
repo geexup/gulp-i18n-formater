@@ -1,5 +1,5 @@
 {
-  "name": "gulp-i18n-formater",
+  "name": "gulp-i18n-formatter",
   "version": "0.0.1",
   "description": "translate file to i18n format",
   "main": "index.js",
