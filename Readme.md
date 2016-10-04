@@ -3,15 +3,15 @@
 ##How to use
 ###install
 ```
-npm install gulp-i18n-formater --save-dev
+npm install gulp-i18n-formatter --save-dev
 ```
 ###add to gulpfile
 ```
-var i18nFormater = require('gulp-i18n-formater');
+var i18nFormatter = require('gulp-i18n-formatter');
 
 gulp.task('format-i18n', function() {
     gulp.src('./Locals.json')
-        .pipe(i18nFormater(['ru_RU', 'en_US']))
+        .pipe(i18nFormatter(['ru_RU', 'en_US']))
         .pipe(gulp.dest('./i18n/'));
 });
 ```

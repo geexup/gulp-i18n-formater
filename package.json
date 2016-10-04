@@ -1,6 +1,6 @@
 {
   "name": "gulp-i18n-formatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "translate file to i18n format",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geexup/gulp-i18n-formater.git"
+    "url": "git+https://github.com/geexup/gulp-i18n-formatter.git"
   },
   "keywords": [
     "gulp",
