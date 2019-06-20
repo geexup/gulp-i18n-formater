@@ -1,5 +1,7 @@
 #GULP-i18n-FORMATTER
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/geexup/gulp-i18n-formatter.svg)](https://greenkeeper.io/)
+
 ##How to use
 ###install
 ```
